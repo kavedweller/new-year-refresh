@@ -2,6 +2,7 @@
   max-width: 1600px;
   margin: 0 auto;
   justify-content: center;
+  font-family: "Work Sans", sans-serif;
 }
 .header {
   /* margin: 0 auto; */
@@ -17,7 +18,7 @@
   /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   width: 1600px;
   height: 800px;
   /* position: absolute; */
@@ -64,4 +65,35 @@
   margin-top: 30px;
   cursor: pointer;
   transition: all 0.2s;
+}
+
+.section-padding {
+  padding-top: 30px;
+}
+
+.section-main {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.self-center {
+  border: 1px solid #000;
+  align-self: center;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
