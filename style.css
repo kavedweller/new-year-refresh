@@ -146,19 +146,22 @@ body {
   text-align: start;
 }
 
-.background {
-  /* width: 200px;
-  height: 200px; */
-  position: relative;
-  display: inline;
-  z-index: 0;
+.gradient-overlay {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.52),
+      rgba(1, 119, 200, 0.73)
+    ),
+    url(img/watch.png);
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 250px;
 }
 
-.overlay {
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  right: 0;
+.text-overlay {
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
 }
 
 .text-grey {
@@ -200,6 +203,10 @@ body {
 
 .padding-inline-40 {
   padding-inline: 40px;
+}
+
+.padding-start-10percent {
+  padding-left: 10%;
 }
 
 .padding-start-20 {
